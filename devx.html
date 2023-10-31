@@ -4,121 +4,51 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <meta name="color-scheme" content="light dark" /> -->
     <meta name="supported-color-schemes" content="light dark" />
     <title>Email Template 2</title>
   </head>
-
-  <style>
-    @media (max-width: 500px) {
-      .banner p {
-        font-size: 0.6rem;
-      }
-
-      .banner-image img {
-        width: 120px !important;
-      }
-    }
-
-    html {
-      font-size: 16px;
-    }
-
-    body {
+  <body
+    style="
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       max-width: 600px;
       margin: 0 auto;
       padding-bottom: 2rem;
-    }
-
-    main .banner {
-      background-color: #f0f0f0;
-      padding: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    main .banner .logo {
-      width: 150px;
-    }
-    main .banner h1 {
-      font-size: 1.6rem;
-    }
-
-    main .banner p {
-      color: gray;
-    }
-
-    main .banner .banner-image img {
-      width: 160px;
-
-    }
-
-    .email-text {
-      padding: 20px;
-    }
-
-    .prefooter {
-      text-align: center;
-    }
-    .prefooter .favicon {
-      width: 100%;
-      background-color: #f0f0f0;
-      padding: 10px;
-    }
-
-    .prefooter h3 {
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin: 1rem 0px 0px 0px;
-    }
-
-    .prefooter p {
-      font-size: 0.7rem;
-      margin: 0.6rem 0;
-    }
-
-    .footer {
-      padding: 20px;
-      font-size: 0.7rem;
-      color: gray;
-      text-align: center;
-    }
-
-    .footer h4 {
-      color: black;
-      font-size: 0.9rem;
-    }
-  </style>
-
-  <body>
+    "
+  >
     <main>
-      <div class="banner">
+      <div
+        class="banner"
+        style="
+          background-color: #f0f0f0;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 1rem;
+        "
+      >
         <div class="content">
           <img
             class="logo"
             src="https://imageupload.io/ib/V9IT2RQhiNluIga_1698669266.png"
             alt="drivewealth-logo"
+            style="width: 150px"
           />
-          <h1>Hello! DevEX Communications</h1>
-          <p>New DevEx Communications | Oct 30, 2023</p>
+          <h1 style="font-size: 1.6rem">Hello! DevEX Communications</h1>
+          <p style="color: gray">New DevEx Communications | Oct 30, 2023</p>
         </div>
-
-        <div class="banner-image">
+        <div class="banner-image" style="width: 160px">
           <img
             src="https://imageupload.io/ib/a9wwJesRmO7vDjY_1698669267.png"
             alt="banner-icons"
+            style="width: 160px"
           />
         </div>
       </div>
-
-      <div class="email-text">
+      <div class="email-text" style="padding: 20px">
         <p>Hello Everyone,</p>
-
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsam
           magnam quia omnis, voluptas distinctio asperiores excepturi libero
@@ -133,7 +63,6 @@
           optio corporis maxime accusamus atque reprehenderit vitae totam
           excepturi quasi praesentium!
         </p>
-
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
           nulla error cupiditate nihil exercitationem corporis praesentium quod
@@ -151,22 +80,36 @@
         <p>Any questions, please reach out to devex@drivewealth.com</p>
         <p>Thank you, DevEx Team.</p>
       </div>
-
-      <div class="prefooter">
-        <div class="favicon">
+      <div class="prefooter" style="text-align: center">
+        <div
+          class="favicon"
+          style="width: 100%; background-color: #f0f0f0; padding: 10px"
+        >
           <img
             width="30"
             src="https://imageupload.io/ib/ko1K6lEHJ6T3Lpj_1698673933.png"
             alt="drive-wealth-favicon"
           />
         </div>
-        <h3>DriveWealth</h3>
-        <p>15 Exchange Place, Jersey City, New Jersey, 07302</p>
+        <h3
+          style="font-size: 1.1rem; font-weight: 600; margin: 1rem 0px 0px 0px"
+        >
+          DriveWealth
+        </h3>
+        <p style="font-size: 0.7rem; margin: 0.6rem 0">
+          15 Exchange Place, Jersey City, New Jersey, 07302
+        </p>
       </div>
-
-      <div class="footer">
-        <h4>Disclamer</h4>
-
+      <div
+        class="footer"
+        style="
+          padding: 20px;
+          font-size: 0.7rem;
+          color: gray;
+          text-align: center;
+        "
+      >
+        <h4 style="color: black; font-size: 0.9rem">Disclamer</h4>
         <p>
           If you are not the intended recipient of this communication, you are
           hereby notified that any disclosure, copying, distribution, or other
@@ -191,7 +134,6 @@
           responsibility for any loss or damage arising in any manner from its
           use.
         </p>
-
         <p>Member FINRA, SIPC</p>
       </div>
     </main>
